@@ -1,0 +1,62 @@
+.dbmain{
+    background-color: red;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.leftview{
+    margin-left: 0px;
+    display: flex;
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.rightview{
+    height: 100%;
+    margin-top: 10%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 1.5%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    margin-right: 30%;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    /* background-color: black; */
+    border-radius: 50%;
+}
+.section1{
+    height: 100%;
+    background-color: blue;
+    flex: 1;
+    flex-direction: column;
+}
+.section2{
+    height: 100%;
+    background-color: green;
+    flex: 1;
+}
+.section3{
+    height: 100%;
+    background-color: ghostwhite;
+    flex: 1;
+}
+.section4{
+    height: 100%;
+    background-color: grey;
+    flex: 1;
+}
+.section5{
+    height: 100%;
+    background-color: skyblue;
+    flex: 1;
+}

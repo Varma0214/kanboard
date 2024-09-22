@@ -1,0 +1,26 @@
+
+.avatarContainer {
+  position: relative;
+  display: inline-block; 
+}
+
+.avatar {
+  height: 30px; 
+  width: 30px; 
+  border-radius: 50%;
+
+}
+
+.status {
+  margin-top: 9px;
+  position: absolute;
+  bottom: 2; 
+  right: 0; 
+  height: 14px; 
+  width: 14px; 
+  border-radius: 50%;
+  border: 2px solid white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transform: translate(50%, 50%); 
+}
+

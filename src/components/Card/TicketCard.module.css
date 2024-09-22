@@ -1,0 +1,87 @@
+
+
+.avatar {
+  height: 30px; 
+  width: 30px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-left: auto; 
+  border: 2px solid whitesmoke; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.card {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+padding: 16px;
+max-width: 320px;
+font-family: "Arial", sans-serif;
+max-height: 350px;
+border: 1px solid whitesmoke;
+}
+
+.nafl{
+border: 1px solid whitesmoke;
+
+}
+
+.header {
+display: flex;
+align-items: center;
+margin-bottom: 8px;
+}
+
+.headerText {
+font-weight: bold;
+margin-right: 8px;
+color: #a3a2a2;
+}
+
+.statusBubble {
+height: 10px;
+width: 10px;
+border-radius: 50%;
+margin-right: auto;
+}
+
+.content {
+text-align: left;
+}
+
+
+.title {
+font-size: 16px;
+color:  #a3a2a2;
+margin-bottom: 8px;
+color: rgb(62, 62, 62);
+}
+
+.featureRequestButton {
+position: absolute;
+left:13%;
+border: 1px solid whitesmoke;
+top: -11%;
+
+padding: 8px 20px;
+cursor: pointer;
+font-size: 14px;
+color:  #a3a2a2;
+border-radius: 6%;
+}
+.dot{
+background-color:  #a3a2a2;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+left: 14.5%;
+top: 49%;
+
+}
+.inside{
+display: flex;
+position:relative;
+}

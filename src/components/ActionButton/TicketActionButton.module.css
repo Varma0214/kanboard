@@ -1,0 +1,8 @@
+.btn > button{
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: white;
+    width: 6rem;
+    height: 1.5rem;
+    cursor:pointer;
+}
